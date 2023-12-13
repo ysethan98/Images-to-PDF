@@ -183,5 +183,6 @@ public class CropImageActivity extends AppCompatActivity {
         mImageCount.setText(String.format("%s %d of %d", getString(R.string.cropImage_activityTitle)
                 , index + 1, mImages.size()));
         mCropImageView.setImageUriAsync(mCroppedImageUris.get(index));
+        System.out.println("gogo!");
     }
 }
